@@ -15,7 +15,7 @@ while True:
   winning_num3= random.randint(0,9)
   winning_numbers= winning_num1, winning_num2, winning_num3
   print(f"winning numbers: {winning_numbers}")
-  if winning_numbers == user_number:
+  if set(winning_numbers) == set(user_number):
     print("Winner")
   else:
     print("You lost")    
