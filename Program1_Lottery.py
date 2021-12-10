@@ -2,7 +2,7 @@ import random
 
 while True:
  def User_Input():
-  print("Give 3 numbers ranging from 0-9.")
+  print("Lottery Game!!!!\nGive 3 numbers ranging from 0-9.")
   Number_1=int(input("Enter your first number: "))
   Number_2=int(input("Enter your second number: "))
   Number_3=int(input("Enter your third number: "))
@@ -19,11 +19,11 @@ while True:
     print("Winner")
   else:
     print("You lost")    
-  
+
  Num1, Num2, Num3=User_Input()
  lottery_system(Num1, Num2, Num3)
  
- choice = input("do you want to try again? y/n ")
+ choice = input("do you want to try again? y/n\n")
  if choice == "y":
   continue
  elif choice == "n":

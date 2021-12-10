@@ -6,7 +6,7 @@ def generator():
  return generated_NUMBER
 
 def guess_checker(generated_number):
- user_answer=int(input("Guess a number from 0-100 that the program will generate.\n"))
+ user_answer=int(input("Guessing game!!!\nGuess the number that the program generated ranging from 0-100.\n"))
  while generated_number != user_answer:
    if user_answer < generated_number:
       print("your answer is less than the generated number")
